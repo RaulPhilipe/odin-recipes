@@ -1,2 +1,2 @@
 # odin-recipes
-Um site de receita simples criado para o Odin Project
+A simple recipe site for odin project
