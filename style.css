@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    background-color: #ececec;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+   font-size: 3rem;
+   text-align: center; 
+   text-decoration: underline;
+}
+
+.desc{
+    text-align: center;
+}
+
+.recipeDiv{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.recipelink{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.recipeLi{
+    list-style: none;
+    padding: 2rem;
+}
+
+.recipelink:hover{
+    color: #555555;
+    text-decoration: underline;
+    transition: ease-in 0.3s;
+    font-size: 1.8rem;
+}
+
+.rcping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.direc{
+    margin: 0rem 2rem 2rem 2rem;
+    text-align: justify;
+}
+
+.rcpimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.rcptitle{
+    text-align: center;
+    padding: 2rem;
+}
+
+.ingtitle{
+    padding: 2rem;
+}
